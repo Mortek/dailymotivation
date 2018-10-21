@@ -51,7 +51,7 @@ if ( ! function_exists( 'superads_lite_footer_copyright' ) ) :
 
 	function superads_lite_footer_copyright() {
 		
-		printf( __( '<a href="%s" rel="author">SuperAds Lite</a> <a href="%s">powered by</a> <a href="%s">ThemeCountry</a>', 'superads-lite' ),  SUPERADS_LITE_PRO_URL, 'https://dewhitehome.com/', '');
+		printf( __( '&copy; <b>Daily Motivation</b> ' . date('Y')));
  
 	}
 
@@ -168,8 +168,8 @@ function superads_lite_the_post_navigation() {
 		<h2 class="screen-reader-text"><?php _e( 'Post navigation', 'superads-lite' ); ?></h2>
 		<div class="nav-links clearfix">
 			<?php
-				previous_post_link( '<div class="nav-previous">%link</div>', '%title' );
-				next_post_link( '<div class="nav-next">%link</div>', '%title' );
+				previous_post_link( '<div class="nav-previous">%link</div>', 'Previous quote' );
+				next_post_link( '<div class="nav-next">%link</div>', 'Next quote' );
 			?>
 		</div><!-- .nav-links -->
 	</nav><!-- .navigation -->
@@ -205,12 +205,6 @@ function superads_lite_posted_on() {
 		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 	);
 
-	$byline = sprintf(
-		_x( 'By %s&nbsp;', 'post author', 'superads-lite' ),
-		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
-	);
-	
-	echo '<span class="byline">' . $byline . '</span>';
 	echo '<span class="posted-on"> ' . $posted_on . '</span>';
 	
 

@@ -58,7 +58,7 @@ function superads_lite_setup() {
 	 */
 	 add_theme_support( 'post-thumbnails' );
 	 set_post_thumbnail_size( 200 );
-	 add_image_size( 'superads-lite-post-thumbnails-grid', 200 , 200, true );
+	 add_image_size( 'superads-lite-post-thumbnails-grid', 200 , 241, false );
 	 add_image_size( 'superads-lite-homepage-thumb-slider', 640 , 250, true );
 	 add_image_size( 'superads-lite-widget-thumbnail', 100, 80, true ); //widget
 
