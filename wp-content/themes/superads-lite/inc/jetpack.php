@@ -1,7 +1,7 @@
 <?php
 /**
  * Jetpack Compatibility File
- * See: http://jetpack.me/
+ * See: https://jetpack.me/
  *
  * @package SuperAds
  */
@@ -9,7 +9,7 @@
 /*
 |------------------------------------------------------------------------------
 | Add theme support for Infinite Scroll.
-| See: http://jetpack.me/support/infinite-scroll/
+| See: https://jetpack.me/support/infinite-scroll/
 |------------------------------------------------------------------------------
 */
 function superads_lite_jetpack_setup() {
