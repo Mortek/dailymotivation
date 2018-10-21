@@ -1,0 +1,497 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperAds Lite\n"
+"POT-Creation-Date: 2016-01-22 10:26+0700\n"
+"PO-Revision-Date: 2016-01-22 10:27+0700\n"
+"Last-Translator: \n"
+"Language-Team:  <dev@themecountry.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: content-single.php:26
+#: content-page.php:18
+#: content.php:26
+msgid "Pages:"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:31
+#: header.php:50
+#: header.php:60
+msgid "Main Navigation"
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:25
+#: inc/template-tags.php:253
+msgid "Edit"
+msgstr ""
+
+#: functions.php:67
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:68
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:69
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:113
+msgid "Sidebar"
+msgstr ""
+
+#: comments.php:35
+#: comments.php:56
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:38
+#: comments.php:59
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:39
+#: comments.php:60
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/customizer.php:36
+msgid "Site Logo"
+msgstr ""
+
+#: inc/customizer.php:100
+msgid "View Documentation"
+msgstr ""
+
+#: inc/customizer.php:101
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: inc/template-tags.php:54
+#, php-format
+msgid ""
+"<a href=\"%s\" rel=\"designer\">SuperAds Lite</a> powered by <a href="
+"\"http://wordpress.org/\">WordPress</a>"
+msgstr ""
+
+#: inc/template-tags.php:83
+msgid "Previous page"
+msgstr ""
+
+#: inc/template-tags.php:84
+msgid "Next page"
+msgstr ""
+
+#: inc/template-tags.php:85
+msgid "Page"
+msgstr ""
+
+#: inc/template-tags.php:93
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:97
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: inc/template-tags.php:101
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/template-tags.php:131
+msgid "Loading..."
+msgstr ""
+
+#: inc/template-tags.php:131
+msgid "Load More..."
+msgstr ""
+
+#: inc/template-tags.php:168
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:234
+#: inc/template-tags.php:240
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:236
+#, php-format
+msgid "In %1$s&nbsp;"
+msgstr ""
+
+#: inc/template-tags.php:242
+#, php-format
+msgid "Tagged %1$s&nbsp;"
+msgstr ""
+
+#: inc/template-tags.php:249
+msgid "Leave a comment&nbsp;"
+msgstr ""
+
+#: inc/template-tags.php:249
+msgid "1 Comment&nbsp;"
+msgstr ""
+
+#: inc/template-tags.php:249
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:272
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: inc/template-tags.php:274
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: inc/template-tags.php:276
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: inc/template-tags.php:278
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:280
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:282
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template-tags.php:304
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#: inc/template-tags.php:308
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:310
+msgid "Archives"
+msgstr ""
+
+#: inc/extras.php:96
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/extras.php:215
+#: inc/customizer/single-options.php:21
+msgid "Related Posts"
+msgstr ""
+
+#: inc/customizer/general-options.php:25
+msgid "General Options"
+msgstr ""
+
+#: inc/customizer/general-options.php:32
+msgid "General"
+msgstr ""
+
+#: inc/customizer/general-options.php:40
+msgid "Header Code"
+msgstr ""
+
+#: inc/customizer/general-options.php:43
+msgid ""
+"If you have any code you want to appear between Heading and Paste it here. "
+"For example: Google Web Master Tool Code or Pinterest Verify Code."
+msgstr ""
+
+#: inc/customizer/general-options.php:51
+msgid "Footer Code"
+msgstr ""
+
+#: inc/customizer/general-options.php:54
+msgid ""
+"If you have tracking code (Google Analytic or other ), Paste Your Code here "
+"which will be inserted before the closing body tag of your theme."
+msgstr ""
+
+#: inc/customizer/general-options.php:65
+#, php-format
+msgid ""
+"Check out the <a href=\"%s\">PRO version</a> to <em>Show</em> or <em>Hide</"
+"em> Top Menu, Primary Menu, Footer Menu, FLoating Navigation Menu, Back to "
+"Top Button."
+msgstr ""
+
+#: inc/customizer/general-options.php:76
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/general-options.php:115
+#, php-format
+msgid ""
+"Check out the <a href=\"%s\">PRO version</a> to change layout with left "
+"sidebar, right sidebar or none sidebar (one column)"
+msgstr ""
+
+#: inc/customizer/general-options.php:128
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer/general-options.php:138
+#: inc/customizer/general-options.php:147
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/general-options.php:139
+msgid ""
+"Number of word as Expert Length To be Shown in Home/Archive pages when you "
+"choose to show entry text as Excerpt."
+msgstr ""
+
+#: inc/customizer/general-options.php:156
+msgid "Pagination Mode"
+msgstr ""
+
+#: inc/customizer/general-options.php:172
+msgid "Default (Older Posts/Newer Posts)"
+msgstr ""
+
+#: inc/customizer/general-options.php:173
+msgid "Numberal (1 2 3 ..)"
+msgstr ""
+
+#: inc/customizer/general-options.php:184
+#, php-format
+msgid ""
+"Check out the <a href=\"%s\">PRO version</a> for two more options <em>Auto "
+"Infinite Scroll</em> and <em>Load More...</em>"
+msgstr ""
+
+#: inc/customizer/general-options.php:195
+msgid "Pro Verion Info"
+msgstr ""
+
+#: inc/customizer/ads-options.php:11
+msgid "Ads Managment"
+msgstr ""
+
+#: inc/customizer/ads-options.php:19
+msgid "Header Banner"
+msgstr ""
+
+#: inc/customizer/ads-options.php:27
+msgid "Header Banner Ad (728 X 90)"
+msgstr ""
+
+#: inc/customizer/ads-options.php:29
+#: inc/customizer/ads-options.php:62
+#: inc/customizer/ads-options.php:96
+#: inc/customizer/ads-options.php:115
+#: inc/customizer/ads-options.php:150
+#: inc/customizer/ads-options.php:182
+#: inc/customizer/ads-options.php:214
+msgid "Ex: Adsense, Buy Sell Ads or Custom Code."
+msgstr ""
+
+#: inc/customizer/ads-options.php:41
+#: inc/customizer/ads-options.php:75
+#: inc/customizer/ads-options.php:127
+#, php-format
+msgid ""
+"Check out the <a href=\"%s\">PRO version</a> to choose where banner ad to "
+"show on Home Page, Single Post, Archive Page, Single Page."
+msgstr ""
+
+#: inc/customizer/ads-options.php:52
+msgid "Banner Ad Under Navigation"
+msgstr ""
+
+#: inc/customizer/ads-options.php:60
+msgid "Banner Ad Under Navigation Bar (Recommend 970 X 90)"
+msgstr ""
+
+#: inc/customizer/ads-options.php:86
+msgid "Banner Ad Under Featured Slider"
+msgstr ""
+
+#: inc/customizer/ads-options.php:94
+msgid "Banner Ad Under Featured Slider (Recommend 640 X 90)"
+msgstr ""
+
+#: inc/customizer/ads-options.php:105
+msgid "Banner Ad in Footer"
+msgstr ""
+
+#: inc/customizer/ads-options.php:113
+msgid "Banner Ad in Footer (Recommend 970 X 90)"
+msgstr ""
+
+#: inc/customizer/ads-options.php:139
+msgid "Before Content"
+msgstr ""
+
+#: inc/customizer/ads-options.php:148
+msgid "Paste Your Ad Code Here"
+msgstr ""
+
+#: inc/customizer/ads-options.php:157
+#: inc/customizer/ads-options.php:189
+#: inc/customizer/ads-options.php:221
+msgid "Choose Alignment for your Ads."
+msgstr ""
+
+#: inc/customizer/ads-options.php:162
+#: inc/customizer/ads-options.php:194
+#: inc/customizer/ads-options.php:226
+msgid "None"
+msgstr ""
+
+#: inc/customizer/ads-options.php:163
+#: inc/customizer/ads-options.php:195
+#: inc/customizer/ads-options.php:227
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/ads-options.php:164
+#: inc/customizer/ads-options.php:196
+#: inc/customizer/ads-options.php:228
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/ads-options.php:165
+#: inc/customizer/ads-options.php:197
+#: inc/customizer/ads-options.php:229
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/ads-options.php:172
+msgid "Middle Content"
+msgstr ""
+
+#: inc/customizer/ads-options.php:180
+#: inc/customizer/ads-options.php:212
+msgid "Paste Your Ads Code Here"
+msgstr ""
+
+#: inc/customizer/ads-options.php:204
+msgid "After Content"
+msgstr ""
+
+#: inc/customizer/style-color-options.php:6
+msgid "Style & Color Options"
+msgstr ""
+
+#: inc/customizer/style-color-options.php:13
+msgid "Primary Navigation"
+msgstr ""
+
+#: inc/customizer/style-color-options.php:24
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer/style-color-options.php:35
+msgid "Hover & Active Background"
+msgstr ""
+
+#: inc/customizer/style-color-options.php:46
+msgid "Sub Menu Background Color"
+msgstr ""
+
+#: inc/customizer/style-color-options.php:56
+msgid "Menu Item Color"
+msgstr ""
+
+#: inc/customizer/style-color-options.php:67
+msgid "Border Color"
+msgstr ""
+
+#: inc/customizer/style-color-options.php:76
+msgid "Anchor Text Color (Color Links)"
+msgstr ""
+
+#: inc/customizer/style-color-options.php:87
+msgid "Anchor Text Color"
+msgstr ""
+
+#: inc/customizer/slide-options.php:12
+msgid "Slideshow"
+msgstr ""
+
+#: inc/customizer/slide-options.php:30
+msgid "Choose Categories to Display Post in Slideshow"
+msgstr ""
+
+#: inc/customizer/slide-options.php:43
+#, php-format
+msgid ""
+"Check out the <a href=\"%s\">PRO version</a> to hide/show slideshow and use "
+"customize slideshow."
+msgstr ""
+
+#: inc/customizer/single-options.php:12
+msgid "Single Options"
+msgstr ""
+
+#: inc/customizer/single-options.php:35
+msgid "Related Posts Taxonomy"
+msgstr ""
+
+#: inc/customizer/single-options.php:40
+msgid "Categories"
+msgstr ""
+
+#: inc/customizer/single-options.php:41
+msgid "Tags"
+msgstr ""
+
+#: inc/customizer/single-options.php:52
+#, php-format
+msgid ""
+"Check out the <a href=\"%s\">PRO version</a> to use options show and hide "
+"related post, choose related posts type grid or list to display and number "
+"related post to show."
+msgstr ""

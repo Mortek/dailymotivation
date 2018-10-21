@@ -1,0 +1,19 @@
+### *2017.04.21* - 1.2.6
+* **Fix** - Update style of tag line bold on page or post detail
+* **Fix** - Page Break not working and applyed style
+* **Add** - Add changelog.txt file
+
+### *2016.01.22* - 1.2.5
+* **Fix** - The string "About Auther: " is not internationlized and has a spelling mistake.
+* **Fix** - Please include the HTTPS version of the google fonts URL so that it also works on HTTPS sites
+* **Fix** - The google fonts handle needs to be prefixed wp_enqueue_style( 'google-font-style'
+* **Fix** - Update pot file
+
+### *2016.01.06* - 1.2.4
+* **Fix** - The Options inside Cutomizer must be working.
+* **Fix** - Function prefix missing in single-options.php
+* **Fix** - Add handlers in function add_image_size in functions.php
+* **Fix** - The spelling of General is wrong inside Single Options
+
+### *2015.12.20* - 1.0.0
+* Initial release

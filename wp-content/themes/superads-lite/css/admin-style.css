@@ -1,0 +1,84 @@
+/*--------------------
+* Theme Option Style
+* 
+----------------------*/
+.format-setting-wrap .select-wrapper,
+.format-setting-wrap .select-wrapper:hover {
+	border: 1px solid #ddd;
+	background: #fff url(../images/dropdown_arrow.png) no-repeat 94% 50%;
+	background-size: 10px auto;
+}
+#setting_number-of-post .format-setting-inner,
+#setting_number-related .format-setting-inner  {
+	width: 102px;
+}
+.wrap.settings-wrap .ui-tabs-nav {
+  float: left;
+  width: 13.2%;
+}
+.wrap.settings-wrap .ui-tabs-nav li a:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+#page-ot_theme_options #option-tree-settings-api .metabox-holder {
+	overflow: inherit;
+	float: left;
+	width: 86%;
+}
+#page-ot_theme_options #google_typography .font_options .css_selectors {
+  padding: 6px 7px 6px 7px;
+}
+#page-ot_theme_options #google_typography .font_options .wp-color-result {
+	height: 30px;
+	margin: 0;
+	vertical-align: middle;
+}
+#page-ot_theme_options #google_typography .font_options .left_col .chzn-container,
+#page-ot_theme_options #google_typography .font_options .left_col .wp-picker-container,
+#page-ot_theme_options #google_typography .font_options .left_col .css_selectors {
+	float: left;
+	margin-right: 10px;
+}
+#page-ot_theme_options #google_typography .font_options .left_col .css_selectors {
+	width: 170px;
+	margin-top: 1px;
+	padding: 5px 10px 6px 10px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#page-ot_theme_options #google_typography .font_options a.delete_collection {
+	font-size: 10px;
+	font-weight: bold;
+  	padding: 0px 5px 0px 5px;
+	background: #f00;
+	color: #fff;
+	display: block;
+	margin-top: 8px;
+	text-decoration: none;
+	border: 1px solid #f00;
+	border-radius: 3px;
+}
+#page-ot_theme_options #google_typography .font_options a.delete_collection:hover {
+	background: #FF1D1D;
+}
+/* Loading */
+.option-tree-ui-buttons .spinner,
+#option-tree-sub-header .spinner {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	margin-top: 10px;
+}
+.sub-banner-ad-label-wrap .format-setting-label {
+	 border-bottom: 0;
+    margin-bottom: 0;
+
+}
+.sub-banner-ad-label-wrap .format-setting-wrap {
+	margin-top: -20px;
+}
+#page-ot_theme_options ul.premium-theme {
+	margin: 0 0 0 25px;
+	list-style: disc;
+}
