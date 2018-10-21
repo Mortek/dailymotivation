@@ -9,7 +9,7 @@
 ?>
 
 <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
-	<div id="secondary" class="widget-area sidebar" role="complementary" itemtype="http://schema.org/WPSideBar" itemscope="itemscope">
+	<div id="secondary" class="widget-area sidebar" role="complementary" itemtype="https://schema.org/WPSideBar" itemscope="itemscope">
 		<?php dynamic_sidebar( 'sidebar-1' ); ?>
 	</div><!-- #secondary -->
 <?php endif; ?>

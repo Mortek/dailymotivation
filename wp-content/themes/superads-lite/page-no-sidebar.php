@@ -13,7 +13,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area content-left" itemprop="mainContentOfPage">
-		<main id="main" class="site-main" role="main" itemtype="http://schema.org/Blog" itemscope="itemscope">
+		<main id="main" class="site-main" role="main" itemtype="https://schema.org/Blog" itemscope="itemscope">
 
 
 			<?php while ( have_posts() ) : the_post(); ?>

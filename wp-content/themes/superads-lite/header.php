@@ -12,16 +12,16 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="profile" href="https://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
+<body <?php body_class(); ?> itemscope itemtype="https://schema.org/WebPage">
 <div id="page" class="hfeed site container">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'superads-lite' ); ?></a>
 
-	<header id="masthead" class="site-header header" role="banner" itemtype="http://schema.org/WPHeader" itemscope="itemscope">
+	<header id="masthead" class="site-header header" role="banner" itemtype="https://schema.org/WPHeader" itemscope="itemscope">
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 		<div class="top-nav primary-navigation"> <!-- Top MENU -->
 			<div class="inner">
@@ -41,7 +41,7 @@
 			</div>
 		</div> <!-- ./Site Branding -->
 			<?php if ( has_nav_menu( 'primary' ) ) : ?>
-				<nav id="site-navigation" class="secondary-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+				<nav id="site-navigation" class="secondary-navigation" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
 					<div  class="main-nav">
 						<div class="inner clearfix">
 							<a class="mobile-only mobile-menu toggle-mobile-menu" href="#" title="Menu"><?php _e('Main Navigation', 'superads-lite') ?> <i class="fa fa-bars"></i></a>
@@ -51,7 +51,7 @@
 					<div id="catcher"></div>
 				</nav><!-- #site-navigation -->
 			<?php else : ?>
-				<nav id="site-navigation" class="secondary-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+				<nav id="site-navigation" class="secondary-navigation" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
 					<div class="main-nav">
 						<div class="inner clearfix">
 							<a class="mobile-only mobile-menu toggle-mobile-menu" href="#" title="Menu"><?php _e('Main Navigation', 'superads-lite') ?> <i class="fa fa-bars"></i></a>

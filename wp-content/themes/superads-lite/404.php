@@ -8,7 +8,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area content-left" itemprop="mainContentOfPage">
-		<main id="main" class="site-main" role="main" itemtype="http://schema.org/Blog" itemscope="itemscope">
+		<main id="main" class="site-main" role="main" itemtype="https://schema.org/Blog" itemscope="itemscope">
 			<section class="error-404 not-found">
 				<header class="page-header">
 					<h1 class="page-title" itemprop="headline"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'superads-lite' ); ?></h1>

@@ -8,7 +8,7 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> itemtype="http://schema.org/BlogPosting" itemscope="itemscope">
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> itemtype="https://schema.org/BlogPosting" itemscope="itemscope">
 	<header class="entry-header">
 		<?php the_title( sprintf( '<h1 class="entry-title" itemprop="headline"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
 

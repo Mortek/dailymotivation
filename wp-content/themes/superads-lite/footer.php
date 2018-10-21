@@ -12,7 +12,7 @@
 		</div> <!-- .inner -->
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+	<footer id="colophon" class="site-footer footer" role="contentinfo" itemscope="itemscope" itemtype="https://schema.org/WPFooter">
 		<div class="inner clearfix">
 			<div class="f-left">
 			<?php superads_lite_footer_copyright(); ?>

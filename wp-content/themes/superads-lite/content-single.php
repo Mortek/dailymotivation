@@ -6,7 +6,7 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> itemtype="http://schema.org/BlogPosting" itemscope="itemscope">
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> itemtype="https://schema.org/BlogPosting" itemscope="itemscope">
 	<header class="entry-header">
 		
 		<?php the_title( '<h1 class="entry-title" itemprop="headline">', '</h1>' ); ?>

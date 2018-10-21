@@ -420,7 +420,7 @@ if (!function_exists('superads_lite_social_icons')) :
 			</li>
 			
 			<li class="twitter">
-				<a href="http://twitter.com/share?url=<?php echo esc_url(get_the_permalink()) ?>&text=<?php the_title() ?>" class="social-popup">
+				<a href="https://twitter.com/share?url=<?php echo esc_url(get_the_permalink()) ?>&text=<?php the_title() ?>" class="social-popup">
 					<i class="fa fa-twitter"></i>
 			        <span class="text">tweet</span>
 				</a>

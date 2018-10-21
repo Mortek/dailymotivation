@@ -1,4 +1,4 @@
-	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> itemtype="http://schema.org/BlogPosting" itemscope="itemscope">
+	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> itemtype="https://schema.org/BlogPosting" itemscope="itemscope">
 		<?php if ( has_post_thumbnail() ) : ?>
 			<div class="thumbnail">
 				<a href="<?php the_permalink() ?>" rel="bookmark"><?php the_post_thumbnail('superads-lite-post-thumbnails-grid'); ?></a>
