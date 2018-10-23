@@ -1762,3 +1762,34 @@ body, .widget ul li a,
 .clearfix {
 	display: block;
 }
+
+/* CUSTOM CSS */
+.wrapper-contact {
+	width: 100%;
+    overflow: hidden;
+}
+
+.grid-left-contact {
+	width: 49%;
+    float: left;
+}
+
+.grid-right-contact {
+ 	width: 49%;
+    float: left;
+    margin-left: 1.55%;
+}
+
+#wpcf7-f53-p54-o1 > form > p:nth-child(5) > label > span > textarea,
+#wpcf7-f53-p54-o1 > form > p:nth-child(4) > label > span > input,
+#wpcf7-f53-p54-o1 > form > p:nth-child(3) > label > span > input,
+#wpcf7-f53-p54-o1 > form > p:nth-child(2) > label > span > input {
+	width: 72%;
+}
+
+@media (max-width: 767px) {
+	.grid-right-contact {
+	    margin-top: 30px;
+	    margin-left: 0%;
+	}
+}
