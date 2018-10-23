@@ -25,7 +25,7 @@
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 		<div class="top-nav primary-navigation"> <!-- Top MENU -->
 			<div class="inner">
-				<a class="mobile-only mobile-menu toggle-mobile-menu" href="#" title="Menu"><?php _e('Main Navigation', 'superads-lite') ?> <i class="fa fa-bars"></i></a>
+				<a class="mobile-only mobile-menu toggle-mobile-menu" href="#" title="Menu"><?php _e('Menu', 'superads-lite') ?> <i class="fa fa-bars"></i></a>
 				<?php wp_nav_menu( array('theme_location' => 'top', 'container' => false, 'menu_class' => 'menu clearfix') ); ?> 
 			</div>
 		</div> <!-- ./Top MENU -->
@@ -44,7 +44,7 @@
 				<nav id="site-navigation" class="secondary-navigation" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
 					<div  class="main-nav">
 						<div class="inner clearfix">
-							<a class="mobile-only mobile-menu toggle-mobile-menu" href="#" title="Menu"><?php _e('Main Navigation', 'superads-lite') ?> <i class="fa fa-bars"></i></a>
+							<a class="mobile-only mobile-menu toggle-mobile-menu" href="#" title="Menu"><?php _e('Menu', 'superads-lite') ?> <i class="fa fa-bars"></i></a>
 							<?php wp_nav_menu( array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'menu clearfix') ); ?> 
 						</div>
 					</div>
@@ -54,7 +54,7 @@
 				<nav id="site-navigation" class="secondary-navigation" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
 					<div class="main-nav">
 						<div class="inner clearfix">
-							<a class="mobile-only mobile-menu toggle-mobile-menu" href="#" title="Menu"><?php _e('Main Navigation', 'superads-lite') ?> <i class="fa fa-bars"></i></a>
+							<a class="mobile-only mobile-menu toggle-mobile-menu" href="#" title="Menu"><?php _e('Menu', 'superads-lite') ?> <i class="fa fa-bars"></i></a>
 							<ul id="menu-main-menu" class="menu clearfix">
 								<?php wp_list_pages('title_li=&sort_column=menu_order'); ?>
 							</ul>

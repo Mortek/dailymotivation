@@ -218,7 +218,7 @@ if (! function_exists('superads_lite_related_posts') ):
 			if ($posts) {
 
 			?>
-			<h3><?php _e('Related Posts', 'superads-lite') ?></h3>
+			<h3><?php _e('Related quotes and videos', 'superads-lite') ?></h3>
 				<ul class="related grid">
 				<?php
 				foreach ($posts as $p) {
@@ -231,7 +231,7 @@ if (! function_exists('superads_lite_related_posts') ):
 							<div class="thumbnail">
 								<a href="<?php echo get_the_permalink($p->ID) ?>">
 								<?php 
-									echo get_the_post_thumbnail($p->ID, 'thumbnail') 
+									echo get_the_post_thumbnail($p->ID, 'post_thumbnail') 
 								?>
 								</a>
 							</div>

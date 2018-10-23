@@ -57,10 +57,10 @@ function superads_lite_setup() {
 	 * @link https://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
 	 add_theme_support( 'post-thumbnails' );
-	 set_post_thumbnail_size( 200 );
+	 set_post_thumbnail_size( 200, 241, false );
 	 add_image_size( 'superads-lite-post-thumbnails-grid', 200 , 241, false );
 	 add_image_size( 'superads-lite-homepage-thumb-slider', 640 , 250, true );
-	 add_image_size( 'superads-lite-widget-thumbnail', 100, 80, true ); //widget
+	 add_image_size( 'superads-lite-widget-thumbnail', 100, 120, true ); //widget
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
