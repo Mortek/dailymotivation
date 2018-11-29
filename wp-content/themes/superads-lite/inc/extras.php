@@ -218,7 +218,7 @@ if (! function_exists('superads_lite_related_posts') ):
 			if ($posts) {
 
 			?>
-			<h3><?php _e('Related quotes and videos', 'superads-lite') ?></h3>
+			<h3><?php _e('Related posts', 'superads-lite') ?></h3>
 				<ul class="related grid">
 				<?php
 				foreach ($posts as $p) {
